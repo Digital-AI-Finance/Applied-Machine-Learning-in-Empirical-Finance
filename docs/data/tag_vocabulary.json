@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-07",
+  "description": "Source of truth for access-tag vocabulary used in resources.json. Each dataset carries exactly one access tag (or a defined two-tag pair). When the jq whitelist in acceptance criterion A3 and this file disagree, this file wins.",
+
+  "access_labels": {
+    "Free": {
+      "definition": "Zero cost, no account required, no commercial restriction on use.",
+      "examples": ["Kenneth French Data Library", "FRED", "BIS Data Portal", "GLEIF"]
+    },
+    "Non-commercial Use": {
+      "definition": "Free to access but license or Terms of Service restrict commercial use. Always paired with a cost tag (Free or Partially Free).",
+      "examples": ["Yahoo Finance (yfinance)", "Google Trends (pytrends)", "Global Macro Database (CC BY-NC-SA)", "Financial PhraseBank (CC BY-NC-SA)", "Loughran-McDonald (academic use only)"]
+    },
+    "Partially Free": {
+      "definition": "A material portion of the dataset's primary value proposition is gated behind a paywall or credentialed access. Both the free and gated halves represent primary value. Not applicable when only trivial or reconstructible signals are missing.",
+      "examples": ["Global Factor Library (JKP) — factor returns free, stock-level characteristics require WRDS", "Open Source Asset Pricing (C&Z) — 209 of 212 signals free, 3 CRSP-only signals"]
+    },
+    "Restricted": {
+      "definition": "Downloading is permitted (possibly free) but redistribution in any form is explicitly forbidden by the Terms of Service. Thesis appendices, replication packages, and repositories all require separate written permission.",
+      "examples": ["AQR Data Library — ToS bans all redistribution without written consent"]
+    },
+    "Subscription": {
+      "definition": "Paid subscription required to access the primary dataset. Free samples may exist but do not constitute the primary value.",
+      "examples": ["LOBSTER — academic subscription required for full limit order book data"]
+    }
+  },
+
+  "two_tag_patterns": {
+    "Free + Non-commercial Use": "Dataset is free to access but has a non-commercial restriction. Use both tags together.",
+    "Partially Free + Non-commercial Use": "The free tier is available but carries a non-commercial restriction. Use both tags together.",
+    "Free + Restricted": "Dataset is free to download but redistribution is forbidden. Use both tags together."
+  },
+
+  "field_schema": {
+    "tags": {
+      "type": "array of strings",
+      "description": "One access tag per dataset (or a defined two-tag pair from two_tag_patterns), plus any number of topic tags. Access tags must come from access_labels above.",
+      "required": true
+    },
+    "license": {
+      "type": "string | null",
+      "description": "SPDX identifier or short human-readable license description. Null when no formal license document exists.",
+      "required": false
+    },
+    "license_notes": {
+      "type": "string | null",
+      "required_when": "license == null",
+      "description": "Human-readable explanation of why the license field is null. Mandatory for null-license entries; null or omitted otherwise."
+    },
+    "license_verified_date": {
+      "type": "ISO-8601 date string",
+      "description": "Date when the license status was last verified from a primary source.",
+      "required": false
+    },
+    "license_source_url": {
+      "type": "string (URL)",
+      "description": "URL of the primary source consulted when determining the license.",
+      "required": false
+    }
+  }
+}

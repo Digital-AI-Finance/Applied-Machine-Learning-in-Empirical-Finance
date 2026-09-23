@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Applied ML in Empirical Finance</title>
+    <meta name="description" content="Academic publications from the Applied ML in Empirical Finance research team.">
+    <meta name="author" content="Joerg Osterrieder">
+    <meta property="og:title" content="Publications | Applied ML in Empirical Finance">
+    <meta property="og:description" content="Research publications with ML+Finance relevance, powered by OpenAlex.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/publications.html">
+    <link rel="canonical" href="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/publications.html">
+    <script src="js/theme-init.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" integrity="sha384-vsrfeLOOY6KuIYKDlmVH5UiBmgIdB1oEf7p01YgWHuqmOHfZr374+odEv96n9tNC" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="navbar-brand"><span class="navbar-abbrev">AMLEF</span> Applied ML in Empirical Finance</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+        <ul class="navbar-nav" id="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="research.html">Focus</a></li>
+            <li><a href="publications.html" class="active" aria-current="page">Publications</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon theme-toggle-light">&#9788;</span>
+            <span class="theme-toggle-icon theme-toggle-dark">&#9789;</span>
+        </button>
+    </nav>
+
+    <main id="main-content">
+        <!-- Header -->
+        <section class="hero hero-subpage">
+            <div class="container">
+                <h1>Publications</h1>
+                <p class="hero-subtitle">
+                    Academic publications from team members in machine learning and finance.
+                    Data sourced from OpenAlex.
+                </p>
+            </div>
+        </section>
+
+        <!-- Statistics -->
+        <section class="section" id="pub-statistics">
+            <div class="container">
+                <div class="stats-grid" id="pub-stats">
+                    <div class="card stat-card">
+                        <div class="stat-value" id="stat-total">-</div>
+                        <div class="stat-label">Total Publications</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-value" id="stat-relevant">-</div>
+                        <div class="stat-label">ML+Finance Related</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-value" id="stat-citations">-</div>
+                        <div class="stat-label">Total Citations</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-value" id="stat-recent">-</div>
+                        <div class="stat-label">Recent (3 years)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts -->
+        <section class="section bg-alt" id="pub-charts">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="chart-container">
+                        <h3 class="chart-title">Publications by Year</h3>
+                        <div style="height: 250px;">
+                            <canvas id="publications-chart" role="img" aria-label="Bar chart showing number of publications by year"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <h3 class="chart-title">Citations by Year</h3>
+                        <div style="height: 250px;">
+                            <canvas id="citations-chart" role="img" aria-label="Bar chart showing citation counts by year"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Publications -->
+        <section class="section" id="featured-publications">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Publications</h2>
+                    <p>Highlighted works most relevant to the project</p>
+                </div>
+
+                <div class="grid-3" id="featured-pubs">
+                    <div class="card">
+                        <span class="tag tag-primary">2010</span>
+                        <h4 style="margin-top: 0.5rem;">When Machines Read the News: Using Automated Text Analytics to Quantify High Frequency News-Implied Market Reactions</h4>
+                        <p class="card-text">
+                            Pioneering study applying automated text analytics to quantify how
+                            financial news drives high-frequency market reactions, published in the Journal of Empirical Finance.
+                        </p>
+                        <div class="team-metrics" style="justify-content: flex-start; border-top: none; padding-top: 0;">
+                            <div class="team-metric">
+                                <span class="team-metric-value">277</span>
+                                <span class="team-metric-label">Citations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <span class="tag tag-primary">2019</span>
+                        <h4 style="margin-top: 0.5rem;">Buzzwords Build Momentum: Global Financial Twitter Sentiment and the Aggregate Stock Market</h4>
+                        <p class="card-text">
+                            Applies NLP-based sentiment analysis to global financial Twitter data,
+                            demonstrating how machine-extracted signals predict aggregate stock market movements.
+                        </p>
+                        <div class="team-metrics" style="justify-content: flex-start; border-top: none; padding-top: 0;">
+                            <div class="team-metric">
+                                <span class="team-metric-value">64</span>
+                                <span class="team-metric-label">Citations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <span class="tag tag-primary">2020</span>
+                        <h4 style="margin-top: 0.5rem;">Neural Networks and Arbitrage in the VIX</h4>
+                        <p class="card-text">
+                            Applies neural network architectures to detect and exploit arbitrage
+                            opportunities in VIX volatility markets, combining deep learning with derivatives pricing.
+                        </p>
+                        <div class="team-metrics" style="justify-content: flex-start; border-top: none; padding-top: 0;">
+                            <div class="team-metric">
+                                <span class="team-metric-value">14</span>
+                                <span class="team-metric-label">Citations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Table -->
+        <section class="section bg-alt" id="all-publications">
+            <div class="container">
+                <div class="section-title">
+                    <h2>All Publications</h2>
+                    <p>Complete list of team member publications</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="filters">
+                    <input type="text" id="search-input" class="filter-input" placeholder="Search by title, author, or venue..." aria-label="Search publications by title, author, or venue">
+                    <select id="year-filter" class="filter-select" aria-label="Filter by year">
+                        <option value="">All Years</option>
+                    </select>
+                    <select id="author-filter" class="filter-select" aria-label="Filter by author">
+                        <option value="">All Authors</option>
+                        <option value="osterrieder">Joerg Osterrieder</option>
+                        <option value="gross-klussmann">Axel Gross-Klussmann</option>
+                    </select>
+                    <button id="refresh-btn" class="btn btn-secondary">
+                        Refresh from OpenAlex
+                    </button>
+                </div>
+
+                <div id="refresh-error" role="alert" style="display: none; color: var(--error); font-size: 12px; margin-bottom: 0.75rem;"></div>
+
+                <!-- Loading indicator -->
+                <div id="loading" class="loading" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>Loading publications...</p>
+                </div>
+
+                <!-- Table -->
+                <div style="overflow-x: auto;">
+                    <table class="publications-table">
+                        <caption class="sr-only">Team member publications with year, title, authors, citations, and links</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" tabindex="0" role="columnheader" aria-sort="descending" data-sort="year" style="cursor: pointer;">Year</th>
+                                <th scope="col" tabindex="0" role="columnheader" aria-sort="none" data-sort="title" style="cursor: pointer;">Title & Venue</th>
+                                <th scope="col">Authors</th>
+                                <th scope="col" tabindex="0" role="columnheader" aria-sort="none" data-sort="citations" style="cursor: pointer;">Citations</th>
+                                <th scope="col">Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="publications-table-body">
+                            <tr>
+                                <td colspan="5" class="text-center">Loading publications...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination info -->
+                <div id="pagination-info" class="text-center mt-4 pagination-info" aria-live="polite">
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Sources -->
+        <section class="section" id="data-sources">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="card">
+                        <h4>Data Source</h4>
+                        <p class="card-text">
+                            Publication data is fetched from <a href="https://openalex.org" target="_blank" rel="noopener noreferrer">OpenAlex</a>,
+                            a free and open catalog of academic publications. The data is automatically
+                            updated using our Python scripts.
+                        </p>
+                        <a href="https://openalex.org/about" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            Learn about OpenAlex
+                        </a>
+                    </div>
+                    <div class="card">
+                        <h4>Research Collaboration</h4>
+                        <p class="card-text">
+                            Interested in collaborating on ML for finance research?
+                            We welcome academic partnerships and industry collaborations.
+                            Reach out to our team to discuss opportunities.
+                        </p>
+                        <a href="team.html#contact" class="btn btn-secondary">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Applied ML in Finance</div>
+                    <p class="footer-text">
+                        A collaborative PhD research project advancing machine learning applications
+                        in empirical finance through industry-university partnership.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="research.html">Focus</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Partners</h3>
+                    <div class="footer-logos">
+                        <a href="https://www.utwente.nl" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/ut_logo.png" alt="University of Twente" style="height: 40px;">
+                        </a>
+                        <a href="https://www.quoniam.com" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/quoniam_logo.png" alt="Quoniam Asset Management">
+                        </a>
+                        <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/cost_logo.png" alt="COST Action" style="height: 28px;">
+                        </a>
+                        <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance" style="height: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-START -->
+            <div class="footer-funding">
+                <div class="footer-funding-logos">
+                    <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance">
+                    </a>
+                    <a href="https://european-union.europa.eu/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/eu_flag.png" alt="Funded by the European Union">
+                    </a>
+                </div>
+                <p class="footer-funding-text">
+                    Associated with the MSCA Doctoral Network "Digital Finance — Reaching New Frontiers"
+                    (Grant Agreement No. 101119635), funded by the European Union under Horizon Europe:
+                    Marie Skłodowska-Curie Actions. Views and opinions expressed are those of the author(s)
+                    only and do not necessarily reflect those of the European Union or the granting authority.
+                    Neither the European Union nor the granting authority can be held responsible for them.
+                </p>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-END -->
+            <div class="footer-bottom">
+                <div>&copy; 2026 Applied ML in Empirical Finance. MIT License.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/openalex.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/publications-page.js"></script>
+</body>
+</html>

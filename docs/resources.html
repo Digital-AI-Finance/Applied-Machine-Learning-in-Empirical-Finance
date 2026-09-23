@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Applied ML in Empirical Finance</title>
+    <meta name="description" content="Datasets, tutorials, tools, and resources for machine learning in finance research.">
+    <script src="js/theme-init.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="author" content="Joerg Osterrieder">
+    <meta property="og:title" content="Resources | Applied ML in Empirical Finance">
+    <meta property="og:description" content="Datasets, tutorials, tools, and academic resources for ML in Finance research.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/resources.html">
+    <link rel="canonical" href="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/resources.html">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="navbar-brand"><span class="navbar-abbrev">AMLEF</span> Applied ML in Empirical Finance</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+        <ul class="navbar-nav" id="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="research.html">Focus</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="resources.html" class="active" aria-current="page">Resources</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon theme-toggle-light">&#9788;</span>
+            <span class="theme-toggle-icon theme-toggle-dark">&#9789;</span>
+        </button>
+    </nav>
+
+    <main id="main-content">
+        <!-- Header -->
+        <section class="hero hero-subpage">
+            <div class="container">
+                <h1>Resources</h1>
+                <p class="hero-subtitle">
+                    Curated datasets, tutorials, tools, and educational materials for
+                    machine learning in finance research.
+                </p>
+                <nav class="article-agenda" aria-label="On this page">
+                    <p class="article-agenda-title">Contents</p>
+                    <ol>
+                        <li><a href="#datasets">Datasets</a></li>
+                        <li><a href="#tools">Tools &amp; Libraries</a></li>
+                        <li><a href="#related-projects">Related Projects</a></li>
+                        <li><a href="#academic-resources">Academic Resources</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Datasets -->
+        <section class="section bg-alt" id="datasets">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Datasets</h2>
+                    <p>Open datasets for financial ML research &middot; <span id="datasets-last-updated"></span></p>
+                </div>
+                <div id="datasets-grid">
+                    <p class="loading">Loading datasets...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools & Libraries -->
+        <section class="section bg-alt" id="tools">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Tools &amp; Libraries</h2>
+                    <p>Software tools for ML in finance research and development</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>PyTorch / TensorFlow</h3>
+                        <p class="card-text">
+                            Deep learning frameworks for building and training neural networks.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-primary">Deep Learning</span>
+                        </div>
+                        <div class="mt-2">
+                            <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">PyTorch</a>
+                            <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">TensorFlow</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>scikit-learn</h3>
+                        <p class="card-text">
+                            Machine learning library for Python with classical algorithms
+                            and utilities.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-primary">ML</span>
+                        </div>
+                        <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>XGBoost / LightGBM</h3>
+                        <p class="card-text">
+                            Gradient boosting libraries for high-performance ensemble learning.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-primary">Ensemble</span>
+                        </div>
+                        <div class="mt-2">
+                            <a href="https://xgboost.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">XGBoost</a>
+                            <a href="https://lightgbm.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LightGBM</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Zipline / Backtrader</h3>
+                        <p class="card-text">
+                            Backtesting frameworks for testing trading strategies on historical data.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-accent">Backtesting</span>
+                        </div>
+                        <div class="mt-2">
+                            <a href="https://github.com/stefan-jansen/zipline-reloaded" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Zipline</a>
+                            <a href="https://www.backtrader.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Backtrader</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>cvxpy</h3>
+                        <p class="card-text">
+                            Convex optimization library for portfolio optimization
+                            and risk management.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-accent">Optimization</span>
+                        </div>
+                        <a href="https://www.cvxpy.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>PyPortfolioOpt</h3>
+                        <p class="card-text">
+                            Portfolio optimization library with mean-variance,
+                            risk parity, and more.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag tag-accent">Portfolio</span>
+                        </div>
+                        <a href="https://pyportfolioopt.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Stable-Baselines3</h3>
+                        <p class="card-text">
+                            Reliable implementations of reinforcement learning algorithms
+                            in PyTorch.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">RL</span>
+                        </div>
+                        <a href="https://stable-baselines3.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Riskfolio-Lib</h3>
+                        <p class="card-text">
+                            Library for portfolio optimization, risk analysis, and
+                            visualization.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">Risk</span>
+                        </div>
+                        <a href="https://riskfolio-lib.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>OpenAlex API</h3>
+                        <p class="card-text">
+                            Open catalog of scholarly works for literature review
+                            and research discovery.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">Research</span>
+                        </div>
+                        <a href="https://docs.openalex.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Projects -->
+        <section class="section" id="related-projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Related Projects</h2>
+                    <p>Research projects and organizations in the field</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>AI4Finance Foundation</h3>
+                        <p class="card-text">
+                            Open-source community developing AI/ML tools for finance,
+                            including FinRL and FinGPT.
+                        </p>
+                        <a href="https://github.com/AI4Finance-Foundation" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            View on GitHub
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>QuantLib</h3>
+                        <p class="card-text">
+                            Open-source library for quantitative finance with pricing
+                            and risk analytics.
+                        </p>
+                        <a href="https://www.quantlib.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            Visit Website
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>mlfinlab</h3>
+                        <p class="card-text">
+                            Implementations of financial ML research from "Advances
+                            in Financial Machine Learning".
+                        </p>
+                        <a href="https://github.com/hudson-and-thames/mlfinlab" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            View on GitHub
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Digital-AI-Finance</h3>
+                        <p class="card-text">
+                            Our organization's other projects in machine learning
+                            for finance.
+                        </p>
+                        <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
+                            View Organization
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Resources -->
+        <section class="section bg-alt" id="academic-resources">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Academic Resources</h2>
+                    <p>Journals, conferences, and academic outlets</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>Journals</h3>
+                        <ul class="resource-list academic-list">
+                            <li class="resource-item academic-item">
+                                <a href="https://www.sciencedirect.com/journal/journal-of-financial-economics" target="_blank" rel="noopener noreferrer">Journal of Financial Economics</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://academic.oup.com/rfs" target="_blank" rel="noopener noreferrer">Review of Financial Studies</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://jmlr.org/" target="_blank" rel="noopener noreferrer">Journal of Machine Learning Research</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://www.tandfonline.com/journals/rquf20" target="_blank" rel="noopener noreferrer">Quantitative Finance</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://jfds.pm-research.com/" target="_blank" rel="noopener noreferrer">Journal of Financial Data Science</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Conferences</h3>
+                        <ul class="resource-list academic-list">
+                            <li class="resource-item academic-item">
+                                <a href="https://neurips.cc/" target="_blank" rel="noopener noreferrer">NeurIPS (Workshop on ML for Finance)</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://icml.cc/" target="_blank" rel="noopener noreferrer">ICML</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://ai-finance.org/" target="_blank" rel="noopener noreferrer">ICAIF (ACM AI in Finance)</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://informaconnect.com/quantminds/" target="_blank" rel="noopener noreferrer">QuantMinds</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://www.afajof.org/" target="_blank" rel="noopener noreferrer">AFA Annual Meeting</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Preprints &amp; Discovery</h3>
+                        <ul class="resource-list academic-list">
+                            <li class="resource-item academic-item">
+                                <a href="https://arxiv.org/list/q-fin/recent" target="_blank" rel="noopener noreferrer">arXiv q-fin</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://arxiv.org/list/cs.LG/recent" target="_blank" rel="noopener noreferrer">arXiv cs.LG</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer">SSRN</a>
+                            </li>
+                            <li class="resource-item academic-item">
+                                <a href="https://openalex.org/" target="_blank" rel="noopener noreferrer">OpenAlex</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Applied ML in Finance</div>
+                    <p class="footer-text">
+                        A collaborative PhD research project advancing machine learning applications
+                        in empirical finance through industry-university partnership.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="research.html">Focus</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Partners</h3>
+                    <div class="footer-logos">
+                        <a href="https://www.utwente.nl" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/ut_logo.png" alt="University of Twente" style="height: 40px;">
+                        </a>
+                        <a href="https://www.quoniam.com" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/quoniam_logo.png" alt="Quoniam Asset Management">
+                        </a>
+                        <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/cost_logo.png" alt="COST Action" style="height: 28px;">
+                        </a>
+                        <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance" style="height: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-START -->
+            <div class="footer-funding">
+                <div class="footer-funding-logos">
+                    <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance">
+                    </a>
+                    <a href="https://european-union.europa.eu/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/eu_flag.png" alt="Funded by the European Union">
+                    </a>
+                </div>
+                <p class="footer-funding-text">
+                    Associated with the MSCA Doctoral Network "Digital Finance — Reaching New Frontiers"
+                    (Grant Agreement No. 101119635), funded by the European Union under Horizon Europe:
+                    Marie Skłodowska-Curie Actions. Views and opinions expressed are those of the author(s)
+                    only and do not necessarily reflect those of the European Union or the granting authority.
+                    Neither the European Union nor the granting authority can be held responsible for them.
+                </p>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-END -->
+            <div class="footer-bottom">
+                <div>&copy; 2026 Applied ML in Empirical Finance. MIT License.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/resources.js"></script>
+</body>
+</html>

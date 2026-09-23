@@ -1,0 +1,1058 @@
+{
+  "project": "Applied Machine Learning in Empirical Finance",
+  "generated": "2026-04-01 21:27:58",
+  "topic_analyses": [
+    {
+      "name": "Machine Learning Portfolio Optimization",
+      "query": "machine learning portfolio optimization",
+      "keywords": [
+        "portfolio",
+        "optimization",
+        "allocation",
+        "machine learning",
+        "deep learning"
+      ],
+      "works_found": 100,
+      "total_citations": 76898,
+      "avg_citations": 768.98,
+      "by_year": {
+        "2020": 20,
+        "2021": 7,
+        "2022": 16,
+        "2023": 38,
+        "2024": 17,
+        "2025": 2
+      },
+      "growth_rate_pct": -64.8,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Data science",
+        "Business",
+        "Machine learning",
+        "Knowledge management",
+        "Computational biology",
+        "Biology",
+        "Environmental science",
+        "Medicine",
+        "Process management",
+        "Context (archaeology)",
+        "Marketing",
+        "Algorithm",
+        "Deep learning"
+      ],
+      "top_venues": [
+        "Nature",
+        "Nature Communications",
+        "Nature Biotechnology",
+        "Nature Methods",
+        "Nature Medicine"
+      ],
+      "recent_papers": [
+        {
+          "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+          "year": 2024,
+          "citations": 11708,
+          "doi": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "title": "Segment anything in medical images",
+          "year": 2024,
+          "citations": 2085,
+          "doi": "10.1038/s41467-024-44824-z"
+        },
+        {
+          "title": "The Role of AI in Hospitals and Clinics: Transforming Healthcare in the 21st Century",
+          "year": 2024,
+          "citations": 674,
+          "doi": "10.3390/bioengineering11040337"
+        },
+        {
+          "title": "Adapted large language models can outperform medical experts in clinical text summarization",
+          "year": 2024,
+          "citations": 577,
+          "doi": "10.1038/s41591-024-02855-5"
+        },
+        {
+          "title": "Automated model building and protein identification in cryo-EM maps",
+          "year": 2024,
+          "citations": 568,
+          "doi": "10.1038/s41586-024-07215-4"
+        },
+        {
+          "title": "Hippopotamus optimization algorithm: a novel nature-inspired optimization algorithm",
+          "year": 2024,
+          "citations": 540,
+          "doi": "10.1038/s41598-024-54910-3"
+        },
+        {
+          "title": "A whole-slide foundation model for digital pathology from real-world data",
+          "year": 2024,
+          "citations": 526,
+          "doi": "10.1038/s41586-024-07441-w"
+        },
+        {
+          "title": "Structured information extraction from scientific text with large language models",
+          "year": 2024,
+          "citations": 500,
+          "doi": "10.1038/s41467-024-45563-x"
+        },
+        {
+          "title": "Detecting hallucinations in large language models using semantic entropy",
+          "year": 2024,
+          "citations": 496,
+          "doi": "10.1038/s41586-024-07421-0"
+        },
+        {
+          "title": "Augmenting large language models with chemistry tools",
+          "year": 2024,
+          "citations": 493,
+          "doi": "10.1038/s42256-024-00832-8"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning Risk Management",
+      "query": "deep learning risk management finance",
+      "keywords": [
+        "risk",
+        "management",
+        "deep learning",
+        "neural network",
+        "VaR"
+      ],
+      "works_found": 100,
+      "total_citations": 97707,
+      "avg_citations": 977.07,
+      "by_year": {
+        "2020": 38,
+        "2021": 22,
+        "2022": 15,
+        "2023": 21,
+        "2024": 4
+      },
+      "growth_rate_pct": -88.9,
+      "trending_concepts": [
+        "Computer science",
+        "Business",
+        "Artificial intelligence",
+        "Knowledge management",
+        "Political science",
+        "Data science",
+        "Sociology",
+        "Engineering ethics",
+        "Management science",
+        "Public relations",
+        "Machine learning",
+        "Psychology",
+        "Perspective (graphical)",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Economics"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "International Journal of Information Management",
+        "International Journal of Educational Technology in Higher Education",
+        "Journal Of Big Data",
+        "Nature Climate Change"
+      ],
+      "recent_papers": [
+        {
+          "title": "Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education",
+          "year": 2024,
+          "citations": 668,
+          "doi": "10.1186/s41239-024-00448-3"
+        },
+        {
+          "title": "Explainability for Large Language Models: A Survey",
+          "year": 2024,
+          "citations": 484,
+          "doi": "10.1145/3639372"
+        },
+        {
+          "title": "Autoencoders and their applications in machine learning: a survey",
+          "year": 2024,
+          "citations": 444,
+          "doi": "10.1007/s10462-023-10662-6"
+        },
+        {
+          "title": "Black-winged kite algorithm: a nature-inspired meta-heuristic for solving benchmark functions and engineering problems",
+          "year": 2024,
+          "citations": 442,
+          "doi": "10.1007/s10462-024-10723-4"
+        }
+      ]
+    },
+    {
+      "name": "Reinforcement Learning Trading",
+      "query": "reinforcement learning trading strategy",
+      "keywords": [
+        "reinforcement learning",
+        "trading",
+        "strategy",
+        "agent",
+        "policy"
+      ],
+      "works_found": 100,
+      "total_citations": 88374,
+      "avg_citations": 883.74,
+      "by_year": {
+        "2020": 32,
+        "2021": 22,
+        "2022": 23,
+        "2023": 18,
+        "2024": 5
+      },
+      "growth_rate_pct": -87.8,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Data science",
+        "Machine learning",
+        "Deep learning",
+        "Field (mathematics)",
+        "Computer security",
+        "Key (lock)",
+        "Knowledge management",
+        "Context (archaeology)",
+        "Telecommunications",
+        "Artificial neural network",
+        "Big data",
+        "Management science",
+        "Psychology"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "IEEE Communications Surveys & Tutorials",
+        "Artificial Intelligence Review",
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "Nature Machine Intelligence"
+      ],
+      "recent_papers": [
+        {
+          "title": "The Role of AI in Hospitals and Clinics: Transforming Healthcare in the 21st Century",
+          "year": 2024,
+          "citations": 674,
+          "doi": "10.3390/bioengineering11040337"
+        },
+        {
+          "title": "Adapted large language models can outperform medical experts in clinical text summarization",
+          "year": 2024,
+          "citations": 577,
+          "doi": "10.1038/s41591-024-02855-5"
+        },
+        {
+          "title": "Augmenting large language models with chemistry tools",
+          "year": 2024,
+          "citations": 493,
+          "doi": "10.1038/s42256-024-00832-8"
+        },
+        {
+          "title": "A Survey on In-context Learning",
+          "year": 2024,
+          "citations": 439,
+          "doi": "10.18653/v1/2024.emnlp-main.64"
+        },
+        {
+          "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+          "year": 2024,
+          "citations": 439,
+          "doi": "10.1145/3649506"
+        }
+      ]
+    },
+    {
+      "name": "Probabilistic ML in Finance",
+      "query": "probabilistic machine learning finance uncertainty",
+      "keywords": [
+        "bayesian",
+        "uncertainty",
+        "probabilistic",
+        "gaussian process"
+      ],
+      "works_found": 100,
+      "total_citations": 40123,
+      "avg_citations": 401.23,
+      "by_year": {
+        "2020": 27,
+        "2021": 22,
+        "2022": 23,
+        "2023": 20,
+        "2024": 8
+      },
+      "growth_rate_pct": -81.4,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Data science",
+        "Business",
+        "Knowledge management",
+        "Management science",
+        "Deep learning",
+        "Artificial neural network",
+        "Data mining",
+        "Environmental science",
+        "Big data",
+        "Process (computing)",
+        "Computer security",
+        "Risk analysis (engineering)"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "Artificial Intelligence Review",
+        "Information Fusion",
+        "Sustainability",
+        "Journal of Artificial Intelligence Research"
+      ],
+      "recent_papers": [
+        {
+          "title": "Autoencoders and their applications in machine learning: a survey",
+          "year": 2024,
+          "citations": 444,
+          "doi": "10.1007/s10462-023-10662-6"
+        },
+        {
+          "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+          "year": 2024,
+          "citations": 412,
+          "doi": "10.1016/j.inffus.2024.102301"
+        },
+        {
+          "title": "Artificial Intelligence for Predictive Maintenance Applications: Key Components, Trustworthiness, and Future Trends",
+          "year": 2024,
+          "citations": 293,
+          "doi": "10.3390/app14020898"
+        },
+        {
+          "title": "Generative artificial intelligence in innovation management: A preview of future research developments",
+          "year": 2024,
+          "citations": 273,
+          "doi": "10.1016/j.jbusres.2024.114542"
+        },
+        {
+          "title": "A local-to-global emissions inventory of macroplastic pollution",
+          "year": 2024,
+          "citations": 227,
+          "doi": "10.1038/s41586-024-07758-6"
+        },
+        {
+          "title": "Hybrid approaches to optimization and machine learning methods: a systematic literature review",
+          "year": 2024,
+          "citations": 205,
+          "doi": "10.1007/s10994-023-06467-x"
+        },
+        {
+          "title": "Privacy and Security Concerns in Generative AI: A Comprehensive Survey",
+          "year": 2024,
+          "citations": 187,
+          "doi": "10.1109/access.2024.3381611"
+        },
+        {
+          "title": "Machine learning and the renewable energy revolution: Exploring solar and wind energy solutions for a sustainable future including innovations in energy storage",
+          "year": 2024,
+          "citations": 184,
+          "doi": "10.1002/sd.2885"
+        }
+      ]
+    },
+    {
+      "name": "Ensemble Methods Credit Risk",
+      "query": "ensemble methods credit risk prediction",
+      "keywords": [
+        "ensemble",
+        "random forest",
+        "gradient boosting",
+        "credit",
+        "risk"
+      ],
+      "works_found": 100,
+      "total_citations": 48507,
+      "avg_citations": 485.07,
+      "by_year": {
+        "2020": 26,
+        "2021": 24,
+        "2022": 26,
+        "2023": 17,
+        "2024": 6,
+        "2025": 1
+      },
+      "growth_rate_pct": -83.7,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Data science",
+        "Data mining",
+        "Deep learning",
+        "Artificial neural network",
+        "Support vector machine",
+        "Pattern recognition (psychology)",
+        "Random forest",
+        "Environmental science",
+        "Computer security",
+        "Business",
+        "Context (archaeology)",
+        "Climate change"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "Artificial Intelligence Review",
+        "Nature Communications",
+        "Journal Of Big Data",
+        "Nature"
+      ],
+      "recent_papers": [
+        {
+          "title": "Accurate predictions on small data with a tabular foundation model",
+          "year": 2025,
+          "citations": 452,
+          "doi": "10.1038/s41586-024-08328-6"
+        },
+        {
+          "title": "Autoencoders and their applications in machine learning: a survey",
+          "year": 2024,
+          "citations": 444,
+          "doi": "10.1007/s10462-023-10662-6"
+        },
+        {
+          "title": "Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods",
+          "year": 2024,
+          "citations": 411,
+          "doi": "10.1186/s40537-024-00905-w"
+        },
+        {
+          "title": "A foundation model for clinical-grade computational pathology and rare cancers detection",
+          "year": 2024,
+          "citations": 308,
+          "doi": "10.1038/s41591-024-03141-0"
+        },
+        {
+          "title": "Generative artificial intelligence in supply chain and operations management: a capability-based framework for analysis and implementation",
+          "year": 2024,
+          "citations": 281,
+          "doi": "10.1080/00207543.2024.2309309"
+        },
+        {
+          "title": "Vertical Federated Learning: Concepts, Advances, and Challenges",
+          "year": 2024,
+          "citations": 276,
+          "doi": "10.1109/tkde.2024.3352628"
+        },
+        {
+          "title": "Global prediction of extreme floods in ungauged watersheds",
+          "year": 2024,
+          "citations": 256,
+          "doi": "10.1038/s41586-024-07145-1"
+        }
+      ]
+    },
+    {
+      "name": "Volatility Forecasting ML",
+      "query": "volatility forecasting machine learning LSTM",
+      "keywords": [
+        "volatility",
+        "forecasting",
+        "LSTM",
+        "GARCH",
+        "neural network"
+      ],
+      "works_found": 100,
+      "total_citations": 24786,
+      "avg_citations": 247.86,
+      "by_year": {
+        "2020": 27,
+        "2021": 25,
+        "2022": 23,
+        "2023": 23,
+        "2024": 2
+      },
+      "growth_rate_pct": -95.7,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Artificial neural network",
+        "Deep learning",
+        "Econometrics",
+        "Time series",
+        "Convolutional neural network",
+        "Data science",
+        "Data mining",
+        "Engineering",
+        "Series (stratigraphy)",
+        "Recurrent neural network",
+        "Stock (firearms)",
+        "Stock market"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "Energies",
+        "Mathematics",
+        "Applied Sciences",
+        "Neural Computing and Applications"
+      ],
+      "recent_papers": [
+        {
+          "title": "Generative artificial intelligence in supply chain and operations management: a capability-based framework for analysis and implementation",
+          "year": 2024,
+          "citations": 281,
+          "doi": "10.1080/00207543.2024.2309309"
+        },
+        {
+          "title": "Wholesale price forecasts of green grams using the neural network",
+          "year": 2024,
+          "citations": 227,
+          "doi": "10.1108/ajeb-01-2024-0007"
+        }
+      ]
+    },
+    {
+      "name": "Transfer Learning Finance",
+      "query": "transfer learning financial markets",
+      "keywords": [
+        "transfer learning",
+        "domain adaptation",
+        "pre-training",
+        "fine-tuning"
+      ],
+      "works_found": 100,
+      "total_citations": 88139,
+      "avg_citations": 881.39,
+      "by_year": {
+        "2020": 42,
+        "2021": 19,
+        "2022": 24,
+        "2023": 13,
+        "2024": 2
+      },
+      "growth_rate_pct": -94.6,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Data science",
+        "Business",
+        "Political science",
+        "Knowledge management",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Sociology",
+        "Machine learning",
+        "Psychology",
+        "Public relations",
+        "Field (mathematics)",
+        "Management science",
+        "Engineering ethics",
+        "Deep learning"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "Artificial Intelligence Review",
+        "American Economic Review",
+        "Applied Sciences",
+        "Nature"
+      ],
+      "recent_papers": [
+        {
+          "title": "The Role of AI in Hospitals and Clinics: Transforming Healthcare in the 21st Century",
+          "year": 2024,
+          "citations": 674,
+          "doi": "10.3390/bioengineering11040337"
+        },
+        {
+          "title": "Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education",
+          "year": 2024,
+          "citations": 668,
+          "doi": "10.1186/s41239-024-00448-3"
+        }
+      ]
+    },
+    {
+      "name": "Interpretable ML Finance",
+      "query": "interpretable machine learning finance explainability",
+      "keywords": [
+        "interpretable",
+        "explainable",
+        "XAI",
+        "SHAP",
+        "regulatory"
+      ],
+      "works_found": 100,
+      "total_citations": 100467,
+      "avg_citations": 1004.67,
+      "by_year": {
+        "2020": 35,
+        "2021": 15,
+        "2022": 21,
+        "2023": 20,
+        "2024": 7,
+        "2025": 2
+      },
+      "growth_rate_pct": -78.0,
+      "trending_concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Data science",
+        "Business",
+        "Machine learning",
+        "Knowledge management",
+        "Political science",
+        "Management science",
+        "Field (mathematics)",
+        "Engineering ethics",
+        "Deep learning",
+        "Economics",
+        "Sociology",
+        "Psychology",
+        "Marketing"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "Artificial Intelligence Review",
+        "Journal Of Big Data",
+        "Nature",
+        "Journal of Applied Learning & Teaching"
+      ],
+      "recent_papers": [
+        {
+          "title": "Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education",
+          "year": 2024,
+          "citations": 668,
+          "doi": "10.1186/s41239-024-00448-3"
+        },
+        {
+          "title": "Explainability for Large Language Models: A Survey",
+          "year": 2024,
+          "citations": 484,
+          "doi": "10.1145/3639372"
+        },
+        {
+          "title": "AI models collapse when trained on recursively generated data",
+          "year": 2024,
+          "citations": 466,
+          "doi": "10.1038/s41586-024-07566-y"
+        },
+        {
+          "title": "Autoencoders and their applications in machine learning: a survey",
+          "year": 2024,
+          "citations": 444,
+          "doi": "10.1007/s10462-023-10662-6"
+        },
+        {
+          "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+          "year": 2024,
+          "citations": 439,
+          "doi": "10.1145/3649506"
+        },
+        {
+          "title": "Random Forest Algorithm Overview",
+          "year": 2024,
+          "citations": 435,
+          "doi": "10.58496/bjml/2024/007"
+        },
+        {
+          "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+          "year": 2024,
+          "citations": 412,
+          "doi": "10.1016/j.inffus.2024.102301"
+        },
+        {
+          "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+          "year": 2025,
+          "citations": 411,
+          "doi": "10.3390/soc15010006"
+        },
+        {
+          "title": "Global supply chains : why they emerged, why they matter, and where they are going",
+          "year": 2025,
+          "citations": 405,
+          "doi": "10.71609/iheid-2ykv-0p36"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Asset ML Strategies",
+      "query": "multi-asset machine learning investment",
+      "keywords": [
+        "multi-asset",
+        "cross-asset",
+        "asset class",
+        "diversification"
+      ],
+      "works_found": 100,
+      "total_citations": 63682,
+      "avg_citations": 636.82,
+      "by_year": {
+        "2020": 44,
+        "2021": 20,
+        "2022": 25,
+        "2023": 10,
+        "2024": 1
+      },
+      "growth_rate_pct": -97.1,
+      "trending_concepts": [
+        "Computer science",
+        "Business",
+        "Data science",
+        "Knowledge management",
+        "Artificial intelligence",
+        "Economics",
+        "Political science",
+        "Key (lock)",
+        "Marketing",
+        "Industrial organization",
+        "Risk analysis (engineering)",
+        "Sociology",
+        "Process (computing)",
+        "Computer security",
+        "Environmental economics"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "IEEE Communications Surveys & Tutorials",
+        "Applied Sciences",
+        "International Journal of Information Management",
+        "Journal of Business Research"
+      ],
+      "recent_papers": [
+        {
+          "title": "The Role of AI in Hospitals and Clinics: Transforming Healthcare in the 21st Century",
+          "year": 2024,
+          "citations": 674,
+          "doi": "10.3390/bioengineering11040337"
+        }
+      ]
+    },
+    {
+      "name": "Real-Time Risk ML",
+      "query": "real-time risk management machine learning",
+      "keywords": [
+        "real-time",
+        "streaming",
+        "online learning",
+        "risk monitoring"
+      ],
+      "works_found": 100,
+      "total_citations": 159981,
+      "avg_citations": 1599.81,
+      "by_year": {
+        "2020": 44,
+        "2021": 26,
+        "2022": 15,
+        "2023": 11,
+        "2024": 4
+      },
+      "growth_rate_pct": -84.6,
+      "trending_concepts": [
+        "Computer science",
+        "Data science",
+        "Artificial intelligence",
+        "Medicine",
+        "Knowledge management",
+        "Business",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Engineering ethics",
+        "Sociology",
+        "Machine learning",
+        "Engineering",
+        "Field (mathematics)",
+        "Political science",
+        "Process (computing)",
+        "2019-20 coronavirus outbreak"
+      ],
+      "top_venues": [
+        "IEEE Access",
+        "International Journal of Information Management",
+        "Journal of Business Research",
+        "European Heart Journal",
+        "Nature"
+      ],
+      "recent_papers": [
+        {
+          "title": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+          "year": 2024,
+          "citations": 2011,
+          "doi": "10.1093/eurheartj/ehae176"
+        },
+        {
+          "title": "The PRIDE database at 20 years: 2025 update",
+          "year": 2024,
+          "citations": 1361,
+          "doi": "10.1093/nar/gkae1011"
+        },
+        {
+          "title": "A survey on large language model based autonomous agents",
+          "year": 2024,
+          "citations": 912,
+          "doi": "10.1007/s11704-024-40231-1"
+        },
+        {
+          "title": "Discovering biomarkers associated and predicting cardiovascular disease with high accuracy using a novel nexus of machine learning techniques for precision medicine",
+          "year": 2024,
+          "citations": 815,
+          "doi": "10.1038/s41598-023-50600-8"
+        }
+      ]
+    }
+  ],
+  "research_gaps": [
+    {
+      "title": "Uncertainty Quantification in Deep Learning for Finance",
+      "description": "While deep learning models show strong performance, most lack proper uncertainty estimation. Research is needed on calibrated uncertainty for financial decision-making.",
+      "related_topics": [
+        "Deep Learning Risk Management",
+        "Probabilistic ML in Finance"
+      ],
+      "importance": "High",
+      "keywords": [
+        "uncertainty",
+        "calibration",
+        "bayesian deep learning",
+        "epistemic uncertainty"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Deep Learning Risk Management",
+          "works_found": 100,
+          "growth_rate": -88.9
+        },
+        {
+          "topic": "Probabilistic ML in Finance",
+          "works_found": 100,
+          "growth_rate": -81.4
+        }
+      ]
+    },
+    {
+      "title": "Multi-Asset Reinforcement Learning Portfolio Management",
+      "description": "Most RL portfolio papers focus on single asset classes. Research on cross-asset RL strategies with realistic transaction costs is limited.",
+      "related_topics": [
+        "Reinforcement Learning Trading",
+        "Multi-Asset ML Strategies"
+      ],
+      "importance": "High",
+      "keywords": [
+        "multi-asset",
+        "reinforcement learning",
+        "portfolio",
+        "cross-asset"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Reinforcement Learning Trading",
+          "works_found": 100,
+          "growth_rate": -87.8
+        },
+        {
+          "topic": "Multi-Asset ML Strategies",
+          "works_found": 100,
+          "growth_rate": -97.1
+        }
+      ]
+    },
+    {
+      "title": "Interpretable ML for Regulatory Compliance",
+      "description": "Financial regulations increasingly require model explainability. Bridging advanced ML techniques with regulatory requirements remains challenging.",
+      "related_topics": [
+        "Interpretable ML Finance",
+        "Deep Learning Risk Management"
+      ],
+      "importance": "High",
+      "keywords": [
+        "explainability",
+        "regulation",
+        "compliance",
+        "interpretability"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Interpretable ML Finance",
+          "works_found": 100,
+          "growth_rate": -78.0
+        },
+        {
+          "topic": "Deep Learning Risk Management",
+          "works_found": 100,
+          "growth_rate": -88.9
+        }
+      ]
+    },
+    {
+      "title": "Transfer Learning Across Financial Markets",
+      "description": "Pre-trained models and transfer learning are underexplored in finance. Research needed on domain adaptation between markets, time periods, and asset classes.",
+      "related_topics": [
+        "Transfer Learning Finance",
+        "Multi-Asset ML Strategies"
+      ],
+      "importance": "Medium",
+      "keywords": [
+        "transfer learning",
+        "domain adaptation",
+        "pre-training",
+        "cross-market"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Transfer Learning Finance",
+          "works_found": 100,
+          "growth_rate": -94.6
+        },
+        {
+          "topic": "Multi-Asset ML Strategies",
+          "works_found": 100,
+          "growth_rate": -97.1
+        }
+      ]
+    },
+    {
+      "title": "Real-Time ML Risk Monitoring Systems",
+      "description": "Gap between academic ML models and production risk systems. Research on online learning, concept drift, and real-time inference for risk management.",
+      "related_topics": [
+        "Real-Time Risk ML",
+        "Deep Learning Risk Management"
+      ],
+      "importance": "High",
+      "keywords": [
+        "real-time",
+        "streaming",
+        "concept drift",
+        "online learning"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Real-Time Risk ML",
+          "works_found": 100,
+          "growth_rate": -84.6
+        },
+        {
+          "topic": "Deep Learning Risk Management",
+          "works_found": 100,
+          "growth_rate": -88.9
+        }
+      ]
+    },
+    {
+      "title": "Robust Ensemble Methods for Tail Risk",
+      "description": "Ensemble methods excel on average but may fail during extreme events. Research on robust ensembles for tail risk and market stress scenarios.",
+      "related_topics": [
+        "Ensemble Methods Credit Risk",
+        "Deep Learning Risk Management"
+      ],
+      "importance": "Medium",
+      "keywords": [
+        "ensemble",
+        "tail risk",
+        "extreme events",
+        "robustness"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Ensemble Methods Credit Risk",
+          "works_found": 100,
+          "growth_rate": -83.7
+        },
+        {
+          "topic": "Deep Learning Risk Management",
+          "works_found": 100,
+          "growth_rate": -88.9
+        }
+      ]
+    },
+    {
+      "title": "Foundation Models for Financial Time Series",
+      "description": "Large language models and foundation models are transforming NLP. Similar approaches for financial time series are nascent and require investigation.",
+      "related_topics": [
+        "Deep Learning Risk Management",
+        "Volatility Forecasting ML"
+      ],
+      "importance": "High",
+      "keywords": [
+        "foundation model",
+        "pre-training",
+        "time series",
+        "self-supervised"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Deep Learning Risk Management",
+          "works_found": 100,
+          "growth_rate": -88.9
+        },
+        {
+          "topic": "Volatility Forecasting ML",
+          "works_found": 100,
+          "growth_rate": -95.7
+        }
+      ]
+    },
+    {
+      "title": "Causal ML for Portfolio Decisions",
+      "description": "Most ML in finance is correlational. Causal inference methods for understanding intervention effects on portfolios are underexplored.",
+      "related_topics": [
+        "Machine Learning Portfolio Optimization",
+        "Interpretable ML Finance"
+      ],
+      "importance": "Medium",
+      "keywords": [
+        "causal inference",
+        "intervention",
+        "counterfactual",
+        "treatment effect"
+      ],
+      "related_analyses": [
+        {
+          "topic": "Machine Learning Portfolio Optimization",
+          "works_found": 100,
+          "growth_rate": -64.8
+        },
+        {
+          "topic": "Interpretable ML Finance",
+          "works_found": 100,
+          "growth_rate": -78.0
+        }
+      ]
+    }
+  ],
+  "research_questions": [
+    {
+      "category": "Portfolio Optimization",
+      "questions": [
+        "How can deep reinforcement learning be extended to handle multi-asset portfolios with realistic constraints?",
+        "What is the optimal way to incorporate transaction costs and market impact into ML-based portfolio optimization?",
+        "Can transformer architectures capture cross-asset dependencies better than traditional methods?",
+        "How should portfolio ML models be adapted during market regime changes?"
+      ]
+    },
+    {
+      "category": "Risk Management",
+      "questions": [
+        "How can we develop uncertainty-aware deep learning models for VaR and ES estimation?",
+        "What architectures are most effective for real-time risk monitoring with streaming data?",
+        "Can ensemble methods be made robust to tail events while maintaining overall performance?",
+        "How should ML risk models be validated to meet regulatory requirements?"
+      ]
+    },
+    {
+      "category": "Methodology",
+      "questions": [
+        "What pre-training strategies work best for financial time series foundation models?",
+        "How can causal inference be integrated with ML predictions for portfolio decisions?",
+        "What transfer learning approaches are most effective across financial markets and time periods?",
+        "How can we develop interpretable ML models that satisfy both performance and regulatory requirements?"
+      ]
+    },
+    {
+      "category": "Implementation",
+      "questions": [
+        "How should ML models be deployed for production risk management with low latency requirements?",
+        "What monitoring and retraining strategies are needed for ML models in changing market conditions?",
+        "How can we build hybrid systems that combine ML predictions with traditional financial models?",
+        "What data infrastructure is required for effective ML-based portfolio management?"
+      ]
+    }
+  ],
+  "summary": {
+    "topics_analyzed": 10,
+    "gaps_identified": 8,
+    "questions_generated": 16
+  }
+}

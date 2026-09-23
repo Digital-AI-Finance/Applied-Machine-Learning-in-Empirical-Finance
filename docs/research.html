@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Focus | Applied ML in Empirical Finance</title>
+    <meta name="description" content="Research focus, open questions, and methodology for the Applied ML in Empirical Finance PhD project.">
+    <meta name="author" content="Joerg Osterrieder">
+    <meta property="og:title" content="Research Focus | Applied ML in Empirical Finance">
+    <meta property="og:description" content="Research focus areas, ML methods, and open research gaps in Applied ML for Finance.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/research.html">
+    <link rel="canonical" href="https://digital-ai-finance.github.io/Applied-Machine-Learning-in-Empirical-Finance/research.html">
+    <script src="js/theme-init.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navbar -->
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="navbar-brand"><span class="navbar-abbrev">AMLEF</span> Applied ML in Empirical Finance</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+        <ul class="navbar-nav" id="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="research.html" class="active" aria-current="page">Focus</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon theme-toggle-light">&#9788;</span>
+            <span class="theme-toggle-icon theme-toggle-dark">&#9789;</span>
+        </button>
+    </nav>
+
+    <main id="main-content">
+        <!-- Header -->
+        <section class="hero hero-subpage">
+            <div class="container">
+                <h1>Research Focus</h1>
+                <p class="hero-subtitle">
+                    Investigating machine learning applications in portfolio optimization
+                    and risk management across multiple asset classes.
+                </p>
+            </div>
+        </section>
+
+        <!-- Research Focus -->
+        <section class="section" id="focus-areas">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Research Focus Areas</h2>
+                    <p>Our two primary research themes and their interconnections</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card" style="padding: 2rem; border-left: 4px solid var(--primary);">
+                        <h3>ML for Portfolio Optimization</h3>
+                        <p>
+                            Developing and evaluating machine learning approaches for optimal asset allocation
+                            and portfolio construction. This includes:
+                        </p>
+                        <ul style="margin: 0 0 1rem; padding-left: 1.25rem;">
+                            <li>Deep learning architectures for return prediction</li>
+                            <li>Reinforcement learning for dynamic rebalancing</li>
+                            <li>Multi-asset portfolio construction with ML</li>
+                            <li>Transaction cost optimization</li>
+                            <li>Constraint handling in ML-based portfolios</li>
+                        </ul>
+                        <div>
+                            <span class="tag tag-primary">Deep Learning</span>
+                            <span class="tag tag-primary">Reinforcement Learning</span>
+                            <span class="tag">Asset Allocation</span>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding: 2rem; border-left: 4px solid var(--accent);">
+                        <h3>Forecasting &amp; Risk Management</h3>
+                        <p>
+                            Applying ML methods to improve risk measurement, monitoring, and prediction.
+                            Key areas include:
+                        </p>
+                        <ul style="margin: 0 0 1rem; padding-left: 1.25rem;">
+                            <li>Volatility forecasting with deep learning</li>
+                            <li>Tail risk estimation with ensemble methods</li>
+                            <li>Real-time risk monitoring systems</li>
+                            <li>Uncertainty quantification in risk models</li>
+                            <li>Stress testing with ML scenario generation</li>
+                        </ul>
+                        <div>
+                            <span class="tag tag-accent">Volatility</span>
+                            <span class="tag tag-accent">VaR/ES</span>
+                            <span class="tag">Tail Risk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ML Methods -->
+        <section class="section bg-alt" id="ml-methods">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Machine Learning Methods</h2>
+                    <p>The computational techniques driving our research</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>Deep Learning</h3>
+                        <p class="card-text">
+                            Neural networks including transformers, LSTMs, autoencoders, and
+                            convolutional architectures for financial time series.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">Transformers</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">Autoencoders</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Reinforcement Learning</h3>
+                        <p class="card-text">
+                            Policy-based and value-based methods for dynamic portfolio allocation
+                            and trading strategy optimization.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">PPO</span>
+                            <span class="tag">A2C</span>
+                            <span class="tag">DQN</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Ensemble Methods</h3>
+                        <p class="card-text">
+                            Random forests, gradient boosting, and model stacking for robust
+                            predictions and feature importance analysis.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">XGBoost</span>
+                            <span class="tag">LightGBM</span>
+                            <span class="tag">Stacking</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Probabilistic ML</h3>
+                        <p class="card-text">
+                            Bayesian methods, Gaussian processes, and uncertainty quantification
+                            for calibrated predictions and risk assessment.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">Bayesian NN</span>
+                            <span class="tag">GP</span>
+                            <span class="tag">Conformal</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Statistical Learning</h3>
+                        <p class="card-text">
+                            Classical statistical models enhanced with modern regularization
+                            and feature selection techniques.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">Lasso</span>
+                            <span class="tag">Ridge</span>
+                            <span class="tag">Elastic Net</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Hybrid Approaches</h3>
+                        <p class="card-text">
+                            Combining ML with traditional financial models like GARCH,
+                            factor models, and optimization frameworks.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">ML+GARCH</span>
+                            <span class="tag">Neural Factors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Gaps -->
+        <section class="section" id="research-gaps">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Open Research Gaps</h2>
+                    <p>Key challenges and opportunities in the field</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card gap-card high" style="padding: 1.5rem;">
+                        <span class="gap-importance high">High Priority</span>
+                        <h3>Uncertainty Quantification in Deep Learning for Finance</h3>
+                        <p class="card-text">
+                            While deep learning models show strong performance, most lack proper uncertainty estimation.
+                            Research is needed on calibrated uncertainty for financial decision-making.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">uncertainty</span>
+                            <span class="tag">calibration</span>
+                            <span class="tag">bayesian deep learning</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card high" style="padding: 1.5rem;">
+                        <span class="gap-importance high">High Priority</span>
+                        <h3>Multi-Asset Reinforcement Learning Portfolio Management</h3>
+                        <p class="card-text">
+                            Most RL portfolio papers focus on single asset classes.
+                            Research on cross-asset RL strategies with realistic transaction costs is limited.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">multi-asset</span>
+                            <span class="tag">reinforcement learning</span>
+                            <span class="tag">cross-asset</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card high" style="padding: 1.5rem;">
+                        <span class="gap-importance high">High Priority</span>
+                        <h3>Interpretable ML for Regulatory Compliance</h3>
+                        <p class="card-text">
+                            Financial regulations increasingly require model explainability.
+                            Bridging advanced ML techniques with regulatory requirements remains challenging.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">explainability</span>
+                            <span class="tag">regulation</span>
+                            <span class="tag">SHAP</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card high" style="padding: 1.5rem;">
+                        <span class="gap-importance high">High Priority</span>
+                        <h3>Real-Time ML Risk Monitoring Systems</h3>
+                        <p class="card-text">
+                            Gap between academic ML models and production risk systems.
+                            Research on online learning, concept drift, and real-time inference for risk management.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">real-time</span>
+                            <span class="tag">streaming</span>
+                            <span class="tag">concept drift</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card high" style="padding: 1.5rem;">
+                        <span class="gap-importance high">High Priority</span>
+                        <h3>Foundation Models for Financial Time Series</h3>
+                        <p class="card-text">
+                            Large language models and foundation models are transforming NLP.
+                            Similar approaches for financial time series are nascent and require investigation.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">foundation model</span>
+                            <span class="tag">pre-training</span>
+                            <span class="tag">self-supervised</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card medium" style="padding: 1.5rem;">
+                        <span class="gap-importance medium">Medium Priority</span>
+                        <h3>Transfer Learning Across Financial Markets</h3>
+                        <p class="card-text">
+                            Pre-trained models and transfer learning are underexplored in finance.
+                            Research needed on domain adaptation between markets, time periods, and asset classes.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">transfer learning</span>
+                            <span class="tag">domain adaptation</span>
+                            <span class="tag">cross-market</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card medium" style="padding: 1.5rem;">
+                        <span class="gap-importance medium">Medium Priority</span>
+                        <h3>Robust Ensemble Methods for Tail Risk</h3>
+                        <p class="card-text">
+                            Ensemble methods excel on average but may fail during extreme events.
+                            Research on robust ensembles for tail risk and market stress scenarios.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">ensemble</span>
+                            <span class="tag">tail risk</span>
+                            <span class="tag">robustness</span>
+                        </div>
+                    </div>
+
+                    <div class="card gap-card medium" style="padding: 1.5rem;">
+                        <span class="gap-importance medium">Medium Priority</span>
+                        <h3>Causal ML for Portfolio Decisions</h3>
+                        <p class="card-text">
+                            Most ML in finance is correlational. Causal inference methods for
+                            understanding intervention effects on portfolios are underexplored.
+                        </p>
+                        <div class="mt-2">
+                            <span class="tag">causal inference</span>
+                            <span class="tag">counterfactual</span>
+                            <span class="tag">treatment effect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Questions -->
+        <section class="section bg-alt" id="research-questions">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Specific Research Questions</h2>
+                    <p>Concrete questions guiding our investigation</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card" style="padding: 1.5rem;">
+                        <h4 style="color: var(--primary);">Portfolio Optimization</h3>
+                        <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.8;">
+                            <li>How can deep reinforcement learning be extended to handle multi-asset portfolios with realistic constraints?</li>
+                            <li>What is the optimal way to incorporate transaction costs and market impact into ML-based portfolio optimization?</li>
+                            <li>Can transformer architectures capture cross-asset dependencies better than traditional methods?</li>
+                            <li>How should portfolio ML models be adapted during market regime changes?</li>
+                        </ul>
+                    </div>
+
+                    <div class="card" style="padding: 1.5rem;">
+                        <h4 style="color: var(--accent);">Risk Management</h3>
+                        <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.8;">
+                            <li>How can we develop uncertainty-aware deep learning models for VaR and ES estimation?</li>
+                            <li>What architectures are most effective for real-time risk monitoring with streaming data?</li>
+                            <li>Can ensemble methods be made robust to tail events while maintaining overall performance?</li>
+                            <li>How should ML risk models be validated to meet regulatory requirements?</li>
+                        </ul>
+                    </div>
+
+                    <div class="card" style="padding: 1.5rem;">
+                        <h4 style="color: var(--success);">Methodology</h3>
+                        <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.8;">
+                            <li>What pre-training strategies work best for financial time series foundation models?</li>
+                            <li>How can causal inference be integrated with ML predictions for portfolio decisions?</li>
+                            <li>What transfer learning approaches are most effective across financial markets and time periods?</li>
+                            <li>How can we develop interpretable ML models that satisfy both performance and regulatory requirements?</li>
+                        </ul>
+                    </div>
+
+                    <div class="card" style="padding: 1.5rem;">
+                        <h4 style="color: var(--primary);">Implementation</h3>
+                        <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.8;">
+                            <li>How should ML models be deployed for production risk management with low latency requirements?</li>
+                            <li>What monitoring and retraining strategies are needed for ML models in changing market conditions?</li>
+                            <li>How can we build hybrid systems that combine ML predictions with traditional financial models?</li>
+                            <li>What data infrastructure is required for effective ML-based portfolio management?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology -->
+        <section class="section" id="methodology">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Research Methodology</h2>
+                    <p>Our approach to rigorous and reproducible research</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="card-icon">1</div>
+                        <h3>Literature Review</h3>
+                        <p class="card-text">
+                            Systematic analysis of existing research using OpenAlex and other academic databases
+                            to identify gaps and build on prior work.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">2</div>
+                        <h3>Method Development</h3>
+                        <p class="card-text">
+                            Novel algorithm design combining ML techniques with financial domain knowledge,
+                            with theoretical analysis where applicable.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">3</div>
+                        <h3>Empirical Validation</h3>
+                        <p class="card-text">
+                            Rigorous backtesting on historical data with proper train/validation/test splits
+                            and out-of-sample evaluation.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">4</div>
+                        <h3>Industry Testing</h3>
+                        <p class="card-text">
+                            Validation in realistic settings at Quoniam with real market data,
+                            transaction costs, and practical constraints.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">5</div>
+                        <h3>Open Science</h3>
+                        <p class="card-text">
+                            Publication of code, data pipelines, and reproducible research artifacts
+                            under open source licenses.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">6</div>
+                        <h3>Peer Review</h3>
+                        <p class="card-text">
+                            Submission to top academic journals and conferences for rigorous
+                            external validation of research contributions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Sources -->
+        <section class="section bg-alt" id="data-assets">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Data & Asset Classes</h2>
+                    <p>The financial data and markets covered in our research</p>
+                </div>
+
+                <div class="grid-4">
+                    <div class="card text-center">
+                        <h3>Equities</h3>
+                        <p class="card-text">
+                            Global equity indices, individual stocks, factor exposures, and cross-sectional data.
+                        </p>
+                    </div>
+                    <div class="card text-center">
+                        <h3>Fixed Income</h3>
+                        <p class="card-text">
+                            Government bonds, corporate credit, yield curves, and interest rate derivatives.
+                        </p>
+                    </div>
+                    <div class="card text-center">
+                        <h3>Multi-Asset</h3>
+                        <p class="card-text">
+                            Cross-asset strategies, correlation dynamics, and multi-asset portfolio construction.
+                        </p>
+                    </div>
+                    <div class="card text-center">
+                        <h3>Derivatives</h3>
+                        <p class="card-text">
+                            Options, futures, volatility products, and derivative pricing applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Applied ML in Finance</div>
+                    <p class="footer-text">
+                        A collaborative PhD research project advancing machine learning applications
+                        in empirical finance through industry-university partnership.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="research.html">Focus</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Partners</h3>
+                    <div class="footer-logos">
+                        <a href="https://www.utwente.nl" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/ut_logo.png" alt="University of Twente" style="height: 40px;">
+                        </a>
+                        <a href="https://www.quoniam.com" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/quoniam_logo.png" alt="Quoniam Asset Management">
+                        </a>
+                        <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/cost_logo.png" alt="COST Action" style="height: 28px;">
+                        </a>
+                        <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance" style="height: 40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-START -->
+            <div class="footer-funding">
+                <div class="footer-funding-logos">
+                    <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/msca_digital_finance_logo.png" alt="MSCA Digital Finance">
+                    </a>
+                    <a href="https://european-union.europa.eu/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/logos/eu_flag.png" alt="Funded by the European Union">
+                    </a>
+                </div>
+                <p class="footer-funding-text">
+                    Associated with the MSCA Doctoral Network "Digital Finance — Reaching New Frontiers"
+                    (Grant Agreement No. 101119635), funded by the European Union under Horizon Europe:
+                    Marie Skłodowska-Curie Actions. Views and opinions expressed are those of the author(s)
+                    only and do not necessarily reflect those of the European Union or the granting authority.
+                    Neither the European Union nor the granting authority can be held responsible for them.
+                </p>
+            </div>
+            <!-- MSCA-FUNDING-DISCLAIMER-END -->
+            <div class="footer-bottom">
+                <div>&copy; 2026 Applied ML in Empirical Finance. MIT License.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
