@@ -1129,42 +1129,6 @@ main {
     font-family: 'Inter', sans-serif;
 }
 
-/* Resources */
-.resource-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.resource-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid var(--border);
-}
-.resource-item:last-child { border-bottom: none; }
-.resource-icon {
-    width: 32px;
-    height: 32px;
-    background: var(--background-alt);
-    border-radius: var(--radius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    flex-shrink: 0;
-    font-size: 14px;
-}
-.resource-content { flex: 1; }
-.resource-title {
-    font-weight: 600;
-    margin-bottom: 0.125rem;
-    font-size: 13px;
-}
-.resource-description {
-    color: var(--text-light);
-    font-size: 11px;
-}
 
 /* Loading */
 .loading {
@@ -1596,16 +1560,6 @@ summary:focus-visible {
     font-size: 10px;
 }
 
-/* Academic resource list (no borders, compact) */
-.academic-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.academic-item {
-    border: none;
-    padding: 0.5rem 0;
-}
 
 /* Article agenda inside hero-subpage */
 .hero-subpage .article-agenda {
