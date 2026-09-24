@@ -1453,6 +1453,11 @@ summary:focus-visible {
     }
     .team-card {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .team-card .team-info {
+        width: 100%;
         text-align: center;
     }
     .team-avatar {
