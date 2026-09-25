@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-09-25",
   "categories": [
     "Asset Pricing & Factors",
     "Market Data",
@@ -385,6 +385,19 @@
       "license": null,
       "tags": ["Alternative Data", "Free", "Non-commercial Use"],
       "paper": null,
+      "code_url": null
+    },
+    {
+      "name": "Wikipedia Clickstream",
+      "category": "Alternative Data, NLP & Benchmarks",
+      "description": "Monthly counts of (referrer, article) pairs from Wikipedia request logs: how readers reach an article and which internal links they follow. 40 language editions (English, German and three others since 2017). Pairs with 10 or fewer observations are removed. Can be used to build directed attention networks, e.g. between company articles. Wulczyn & Taraborelli (figshare, 2015).",
+      "url": "https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream",
+      "availability": "2015 -- present (monthly since Nov 2017)",
+      "periodicity": "Monthly",
+      "python_packages": null,
+      "license": "CC0 1.0",
+      "tags": ["Alternative Data", "Graph Data", "Free"],
+      "paper": "Wulczyn & Taraborelli (figshare, 2015)",
       "code_url": null
     },
     {
