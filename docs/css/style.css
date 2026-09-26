@@ -1606,6 +1606,12 @@ summary:focus-visible {
     margin-top: auto;
     padding-top: 0.5rem;
 }
+.card-link {
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-size: 12px;
+    font-weight: 500;
+}
 
 
 /* Article agenda inside hero-subpage */
