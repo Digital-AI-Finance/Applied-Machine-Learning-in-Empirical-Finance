@@ -44,16 +44,52 @@
             <div class="container">
                 <h1>Resources</h1>
                 <p class="hero-subtitle">
-                    Curated datasets and tools for machine learning in finance research.
+                    Tools I developed to facilitate research, and a curated list of datasets and related projects for machine learning in finance.
                 </p>
                 <nav class="article-agenda" aria-label="On this page">
                     <p class="article-agenda-title">Contents</p>
                     <ol>
+                        <li><a href="#tools">Tools</a></li>
                         <li><a href="#datasets">Datasets</a></li>
-                        <li><a href="#tools">Tools &amp; Libraries</a></li>
                         <li><a href="#related-projects">Related Projects</a></li>
                     </ol>
                 </nav>
+            </div>
+        </section>
+
+        <!-- Tools -->
+        <section class="section bg-alt" id="tools">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Tools</h2>
+                    <p>Open-source tools I developed for research</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>latex-claim-and-bib-checker</h3>
+                        <p class="card-text">
+                            Checks a LaTeX manuscript before submission. It compares each cited BibTeX entry
+                            with Crossref, OpenAlex and DataCite and asks a language model whether the abstract
+                            of each cited work supports the citing sentence. Runs locally with LM Studio.
+                            A verification aid based on abstracts.
+                        </p>
+                        <p class="dataset-meta">Python 3.11+ &middot; Markdown or Excel report</p>
+                        <p class="dataset-meta">License: PolyForm Noncommercial 1.0.0</p>
+                        <div class="tool-card-footer">
+                            <div>
+                                <span class="tag">LaTeX</span>
+                                <span class="tag">BibTeX</span>
+                                <span class="tag">Citations</span>
+                                <span class="tag">Research Integrity</span>
+                                <span class="tag">Local LLM</span>
+                            </div>
+                            <a href="https://github.com/HoffmannDennis/latex-claim-and-bib-checker" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub" data-tooltip="GitHub" title="GitHub">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -66,144 +102,6 @@
                 </div>
                 <div id="datasets-grid">
                     <p class="loading">Loading datasets...</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tools & Libraries -->
-        <section class="section bg-alt" id="tools">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Tools &amp; Libraries</h2>
-                    <p>Software tools for ML in finance research and development</p>
-                </div>
-
-                <div class="grid-3">
-                    <div class="card">
-                        <h3>PyTorch / TensorFlow</h3>
-                        <p class="card-text">
-                            Deep learning frameworks for building and training neural networks.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-primary">Deep Learning</span>
-                        </div>
-                        <div class="mt-2">
-                            <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">PyTorch</a>
-                            <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">TensorFlow</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3>scikit-learn</h3>
-                        <p class="card-text">
-                            Machine learning library for Python with classical algorithms
-                            and utilities.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-primary">ML</span>
-                        </div>
-                        <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>XGBoost / LightGBM</h3>
-                        <p class="card-text">
-                            Gradient boosting libraries for high-performance ensemble learning.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-primary">Ensemble</span>
-                        </div>
-                        <div class="mt-2">
-                            <a href="https://xgboost.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">XGBoost</a>
-                            <a href="https://lightgbm.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LightGBM</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3>Zipline / Backtrader</h3>
-                        <p class="card-text">
-                            Backtesting frameworks for testing trading strategies on historical data.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-accent">Backtesting</span>
-                        </div>
-                        <div class="mt-2">
-                            <a href="https://github.com/stefan-jansen/zipline-reloaded" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Zipline</a>
-                            <a href="https://www.backtrader.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Backtrader</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3>cvxpy</h3>
-                        <p class="card-text">
-                            Convex optimization library for portfolio optimization
-                            and risk management.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-accent">Optimization</span>
-                        </div>
-                        <a href="https://www.cvxpy.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>PyPortfolioOpt</h3>
-                        <p class="card-text">
-                            Portfolio optimization library with mean-variance,
-                            risk parity, and more.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag tag-accent">Portfolio</span>
-                        </div>
-                        <a href="https://pyportfolioopt.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Stable-Baselines3</h3>
-                        <p class="card-text">
-                            Reliable implementations of reinforcement learning algorithms
-                            in PyTorch.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag">RL</span>
-                        </div>
-                        <a href="https://stable-baselines3.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Riskfolio-Lib</h3>
-                        <p class="card-text">
-                            Library for portfolio optimization, risk analysis, and
-                            visualization.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag">Risk</span>
-                        </div>
-                        <a href="https://riskfolio-lib.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>OpenAlex API</h3>
-                        <p class="card-text">
-                            Open catalog of scholarly works for literature review
-                            and research discovery.
-                        </p>
-                        <div class="mt-2">
-                            <span class="tag">Research</span>
-                        </div>
-                        <a href="https://docs.openalex.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>

@@ -1597,6 +1597,15 @@ summary:focus-visible {
     padding: 0.05rem 0.3rem;
     font-size: 10px;
 }
+/* Tool card: tags left, GitHub logo bottom right */
+.tool-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
+}
 
 
 /* Article agenda inside hero-subpage */
