@@ -108,57 +108,61 @@
         </section>
 
         <!-- Related Projects -->
-        <section class="section" id="related-projects">
+        <section class="section" id="related-projects" aria-labelledby="related-projects-title">
             <div class="container">
                 <div class="section-title">
-                    <h2>Related Projects</h2>
-                    <p>Research projects and organizations in the field</p>
+                    <h2 id="related-projects-title">Related Projects</h2>
+                    <p>Research projects and organizations in the field.</p>
                 </div>
 
                 <div class="grid-2">
-                    <div class="card">
-                        <h3>AI4Finance Foundation</h3>
+                    <article class="card" aria-labelledby="quantlet-title">
+                        <div class="resource-kind">Research code &amp; replication</div>
+                        <h3 id="quantlet-title">QuantLet</h3>
+                        <p class="card-text">
+                            Research code and computational examples in statistics, data science, and finance,
+                            supporting reproducible quantitative research.
+                        </p>
+                        <a href="https://github.com/QuantLet" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            Explore research code <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="card" aria-labelledby="quantinar-title">
+                        <div class="resource-kind">Courses &amp; learning materials</div>
+                        <h3 id="quantinar-title">Quantinar</h3>
+                        <p class="card-text">
+                            Courses and short learning units on quantitative methods, including financial statistics,
+                            machine learning, and time series analysis.
+                        </p>
+                        <a href="https://quantinar.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            Explore learning materials <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="card" aria-labelledby="ai4finance-title">
+                        <div class="resource-kind">AI/ML community</div>
+                        <h3 id="ai4finance-title">AI4Finance Foundation</h3>
                         <p class="card-text">
                             Open-source community developing AI/ML tools for finance,
                             including FinRL and FinGPT.
                         </p>
-                        <a href="https://github.com/AI4Finance-Foundation" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            View on GitHub
+                        <a href="https://github.com/AI4Finance-Foundation" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            View on GitHub <span aria-hidden="true">↗</span>
                         </a>
-                    </div>
+                    </article>
 
-                    <div class="card">
-                        <h3>QuantLib</h3>
-                        <p class="card-text">
-                            Open-source library for quantitative finance with pricing
-                            and risk analytics.
-                        </p>
-                        <a href="https://www.quantlib.org/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            Visit Website
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>mlfinlab</h3>
-                        <p class="card-text">
-                            Implementations of financial ML research from "Advances
-                            in Financial Machine Learning".
-                        </p>
-                        <a href="https://github.com/hudson-and-thames/mlfinlab" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            View on GitHub
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Digital-AI-Finance</h3>
+                    <article class="card" aria-labelledby="digital-ai-finance-title">
+                        <div class="resource-kind">Project organization</div>
+                        <h3 id="digital-ai-finance-title">Digital-AI-Finance</h3>
                         <p class="card-text">
                             Our organization's other projects in machine learning
                             for finance.
                         </p>
-                        <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mt-2">
-                            View Organization
+                        <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            View organization <span aria-hidden="true">↗</span>
                         </a>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
