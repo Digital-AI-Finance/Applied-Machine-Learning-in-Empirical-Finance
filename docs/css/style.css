@@ -891,6 +891,10 @@ main {
     border-color: var(--secondary-light);
 }
 
+.event-card > .tag {
+    margin-left: 0;
+}
+
 /* Date-first metadata uses the same tag style as the rest of the site. */
 .timeline-meta {
     display: flex;
