@@ -5,6 +5,8 @@
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
     --primary-light: #dbeafe;
+    --tooling: #3b6fae;
+    --tooling-light: #eff6ff;
     --secondary: #b45309;
     --secondary-light: #fef3c7;
     --accent: #b45309;
@@ -46,6 +48,8 @@
     --primary: #60a5fa;
     --primary-dark: #93bbfd;
     --primary-light: #1e3a5f;
+    --tooling: #bfd8f3;
+    --tooling-light: #29445f;
     --secondary: #d97706;
     --secondary-light: #422006;
     --accent: #d97706;
@@ -920,10 +924,18 @@ main {
     white-space: nowrap;
 }
 .timeline-meta .tag-paper,
-[data-theme="dark"] .timeline-meta .tag.tag-paper {
+[data-theme="dark"] .timeline-meta .tag.tag-paper,
+.timeline-meta .tag-research-code,
+[data-theme="dark"] .timeline-meta .tag.tag-research-code {
     background: var(--primary-light);
     color: var(--primary-dark);
     border-color: var(--primary-light);
+}
+.timeline-meta .tag-tooling-code,
+[data-theme="dark"] .timeline-meta .tag.tag-tooling-code {
+    background: var(--tooling-light);
+    color: var(--tooling);
+    border-color: var(--tooling-light);
 }
 [data-theme="dark"] .timeline-meta .tag-accent { color: #fbbf24; }
 
