@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://empirical-finance.com/sitemap.xml
