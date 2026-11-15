@@ -22,3 +22,7 @@ The project investigates how machine learning and alternative data, including fi
 ## About this repository
 
 This repository hosts the project's public website, which presents the research project, team, working papers, and team publications.
+
+## Research resources
+
+See [Research resources](resources/README.md) for tools and datasets to facilitate research. The tools are maintained in standalone repositories to support discoverability, independent reuse and community contributions.
